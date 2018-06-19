@@ -3,7 +3,7 @@ font-family: 'Work Sans', sans-serif;
 }
 
 body {
-  background-color: #f7f4ea;
+  background-color: #d8e0f1;
 }
 
 
@@ -17,6 +17,7 @@ a {
   text-decoration: none;
   color: black;
 }
+
 
 h2,
 h3,
@@ -47,6 +48,7 @@ footer {
 
 .name {
   text-align:center;
+  font-family: 'Courgette', cursive;
 }
 
 .navigation {
@@ -66,6 +68,10 @@ footer {
   margin: 5px;
 }
 
+.nav-box a:hover {
+  color: #ffa899;
+}
+
 .profile-img {
   display: block;
   margin-left: auto;
@@ -80,8 +86,13 @@ footer {
 }
 
 .secondary-content {
-  background-color: white;
+  background-color: #f4f4f4;
   padding: 12px 12px 36px 12px;
+}
+
+.content-links:hover {
+  background-color: #d8e0f1;
+  transition: 1s;
 }
 
 .portfolio-heading {
