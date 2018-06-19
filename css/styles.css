@@ -1,0 +1,199 @@
+* {
+font-family: 'Work Sans', sans-serif;
+}
+
+body {
+  background-color: #f7f4ea;
+}
+
+
+ul {
+  display: block;
+  list-style-type: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h2,
+h3,
+p {
+  text-align: center;
+}
+
+p {
+  line-height: 24px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+
+.name {
+  text-align:center;
+}
+
+.navigation {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.nav-list {
+  text-align: center;
+}
+
+.nav-box a {
+  display: block;
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  margin: 5px;
+}
+
+.profile-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.main-content {
+  padding: 12px;
+  margin: 12px;
+  text-align: center;
+}
+
+.secondary-content {
+  background-color: white;
+  padding: 12px 12px 36px 12px;
+}
+
+.portfolio-heading {
+  padding: 12px;
+}
+
+.secondary-imgs {
+  display: block;
+  padding: 12px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.contact {
+  padding: 12px;
+}
+
+.contact-info {
+  display: block;
+  text-align: center;
+  padding: 12px;
+  line-height: 30px;
+}
+
+
+
+/* Media Queries */
+
+@media (max-width: 766px;) {
+
+#inline-footer-nav {
+  display: none;
+}
+
+}
+
+@media (min-width: 767px) {
+
+
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+}
+
+.profile-img {
+  display: flex;
+  order: 1;
+}
+.content-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-flow: row wrap;
+  align-content: stretch;
+}
+
+.content-links {
+  max-width: 350px;
+  flex: 0 0 45%;
+}
+
+#mobile-footer-nav {
+  display: none;
+}
+
+}
+
+@media (min-width: 1023px) {
+
+
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.profile-img {
+  display: flex;
+  order: 1;
+}
+.content-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-flow: row wrap;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.content-links {
+  max-width: 350px;
+  flex: 0 0 33.3333%;
+}
+
+}
