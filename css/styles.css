@@ -107,21 +107,25 @@ footer {
   line-height: 30px;
 }
 
+#inline-footer-nav {
+  display: none;
+
 
 
 /* Media Queries */
 
 @media (max-width: 766px;) {
 
-#inline-footer-nav {
-  display: none;
+
 }
 
 }
 
 @media (min-width: 767px) {
 
-
+footer {
+  margin-bottom: 12px;
+}
 
 ul {
   display: flex;
@@ -151,6 +155,15 @@ ul {
 .content-links {
   max-width: 350px;
   flex: 0 0 45%;
+}
+
+#inline-footer-nav {
+  display:contents;
+}
+
+#inline-footer-nav li {
+  display:inline-block;
+  padding: 12px;
 }
 
 #mobile-footer-nav {
