@@ -109,17 +109,11 @@ footer {
 
 #inline-footer-nav {
   display: none;
-
+}
 
 
 /* Media Queries */
 
-@media (max-width: 766px;) {
-
-
-}
-
-}
 
 @media (min-width: 767px) {
 
@@ -174,12 +168,22 @@ ul {
 
 @media (min-width: 1023px) {
 
-
+header {
+  display: flex;
+}
 
 ul {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.name {
+  width: 25%;
+}
+
+.nav-list {
+  justify-content: flex-end;
 }
 
 .main-container {
